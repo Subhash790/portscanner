@@ -116,6 +116,6 @@ This project is licensed under the MIT License. For more details, please refer t
 
 ## Contact
 
-If you have any questions or need assistance, feel free to contact me at sarvesh32717@gmail.com or open an issue on GitHub.
+If you have any questions or need assistance, feel free to contact me at subhashjangid790@gmail.com or open an issue on GitHub.
 
 Thank you for using the Port Scanner Tool!
