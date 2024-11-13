@@ -28,7 +28,7 @@ Follow these steps to set up the Port Scanner Tool on your local machine:
    Clone this repository to your local machine using Git. Open your terminal or command prompt and run:
 
    ```bash
-   git clone https://github.com/mutantera/Port-Scanner.git
+   git clone https://github.com/mutantera/portscanner.git
    ```
 
    This command copies the repository from GitHub to your computer.
@@ -38,7 +38,7 @@ Follow these steps to set up the Port Scanner Tool on your local machine:
    Change your directory to the project folder:
 
    ```bash
-   cd Port-Scanner
+   cd portscanner
    ```
 
    This command moves you into the folder containing the project files.
@@ -66,7 +66,7 @@ To start using the Port Scanner Tool, follow these steps:
 2. Navigate to the project directory if you aren’t already there:
 
    ```bash
-   cd Port-Scanner
+   cd portscanner
    ```
 
 3. Run the port scanner script:
@@ -77,10 +77,10 @@ To start using the Port Scanner Tool, follow these steps:
 
 ### Customizing the Target and Port Range
 
-You can change the target IP address and port range by editing the `port.py` file. Open `port.py` in a text editor and modify the following lines:
+You can change the target IP address and port range by editing the `portscanner.py` file. Open `portscanner.py` in a text editor and modify the following lines:
 
 ```python
-target = '192.168.173.90'  # Replace with the IP address you want to scan
+target = '192.168.173.100'  # Replace with the IP address you want to scan
 port_range = '1-1024'  # Adjust the port range as needed
 ```
 
@@ -91,8 +91,8 @@ After updating these values, save the file and run the script again to scan the 
 When you run the script, you might see output like this:
 
 ```plaintext
-Scanning 192.168.173.90 for open ports in the range 1-1024...
-Host: 192.168.173.90 (hostname)
+Scanning 192.168.173.100 for open ports in the range 1-1024...
+Host: 192.168.173.100 (hostname)
 State: up
 Protocol: tcp
 Port 22 is open
